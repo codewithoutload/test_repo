@@ -440,10 +440,11 @@ h3{
 #right_scroll_button2:hover{
     cursor: pointer;
 }
-.highlighted_text:hover{
+.highlighted_text a:hover{
     /* color: #F00F25 ; */
     color: transparent;
     text-shadow:1px 1px 0px #FF2B06;
+    /* color: #F00F25; */
     transition: 0.5s;
     filter: brightness(120%);
 }
